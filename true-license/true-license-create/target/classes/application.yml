@@ -1,0 +1,14 @@
+server:
+    tomcat:
+        uri-encoding: UTF-8
+    port: 8099
+spring:
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+    jackson:
+        default-property-inclusion: non_null
+    messages:
+        encoding: UTF-8
